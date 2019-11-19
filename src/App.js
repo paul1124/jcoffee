@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Background from './components/Background';
 import MainImage from './components/images/main.jpeg';
 import Home from './components/Home';
@@ -16,10 +16,11 @@ const mainImageStyle = {
 }
 
 function App() {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="App">
-      {/* <img className="main-image" src={MainImage} alt="Background" style={mainImageStyle} /> */}
-      <Background />
       <Home />
     </div>
   );
