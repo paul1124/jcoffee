@@ -28,10 +28,10 @@ const Home = () => {
                 </Parallax> */}
             <div className="home-main">
                 
-                <div className="home-border">
+                {/* <div className="home-border">
                     <h2 className="home-alpha">-J-</h2>
                     <p className="home-beta">Coffee Inc.</p>
-                </div>
+                </div> */}
             </div>
             <div className="home-about">
                 <div className="home-about-main-container">
@@ -65,11 +65,13 @@ const Home = () => {
             </div>
             <div className="home-extend">
                 <div className="home-extend-main">
-                    <div className="home-extend-icon">
+                    {/* <div className="home-extend-icon">
                         <h2 className="home-alpha">-J-</h2>
-                    </div>
+                    </div> */}
 
                     <h2 className="home-extend-title">J Coffee Inc.</h2>
+                    <p className="home-extend-description">Born in San Diego, California in 2018, J Coffee thrives to provide customers with carefully selected and handcrafted coffee to the customers. We recognize and value the experience customer has in J Coffee, and seek to improve on every feedback.</p>
+                    <a href="" className="home-extend-more">Learn More</a>
                 </div>
             </div>
         </section>

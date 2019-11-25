@@ -1,0 +1,69 @@
+.nav {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    transition: all 0.25s ease-in-out;
+    // height: 100vh;
+}
+.navbar {
+    align-self: center;
+    width: 100%;
+    // border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.navbar-item {
+    // display: inline-block;
+    flex: 1;
+    // border: 1px solid white;
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    &:first-child, &:last-child {
+        
+        padding: 1em 0;
+        // margin: 0 2em;
+        // font-size: 2em;
+    }
+}
+
+.nav-link {
+    // height: 3em;
+    // transition: all 0.5s ease-in-out;
+    align-self: center;
+    display: block;
+    width: 100%;
+    // height: 100%;
+    // padding: 1em 0;
+    text-decoration: none;
+    color: white;
+    // position: absolute;
+    position: relative;
+    // &:first-child, &:last-child {
+    //     // padding: 1em 0;
+    //     margin: 0 2em;
+    //     // font-size: 2em;
+    // }
+}
+#nav-logo {
+    // padding: 
+    // position: absolute;
+    transform: translateY(2em);
+    transition: all 1s ease-in-out;
+    font-family: 'Mountains of Christmas';
+    font-size: 8em;
+    border-radius: 100%;
+    position: absolute;
+    width: 1.5em;
+    padding: 0.25em;
+    background-color: rgba(0, 0, 0, 0.62);
+    border: none;
+}

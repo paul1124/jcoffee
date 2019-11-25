@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import Background from './components/Background';
 import MainImage from './components/images/main.jpeg';
+import Nav from './components/Nav';
 import Home from './components/Home';
+import Footer from './components/Footer';
 import './App.css';
 
 const mainImageStyle = {
@@ -21,7 +23,9 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <Nav />
       <Home />
+      <Footer />
     </div>
   );
 }
